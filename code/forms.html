@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="../node_modules/bootstrap/dist/css/bootstrap.css"
+    />
+    <title>Forms</title>
+  </head>
+  <body>
+    <h1>Forms</h1>
+    <div class="container border">
+      <div class="w-50 mx-auto">
+        <form action="">
+          <div class="form-floating">
+            <input
+              type="email"
+              class="form-control"
+              id="email"
+              placeholder="E-mail"
+            />
+            <label for="email">E-mail</label>
+          </div>
+
+          <label for="age" class="form-label">Age</label>
+          <select id="age" class="form-select">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+          </select>
+
+          <div class="form-floating">
+            <textarea
+              id="desc"
+              class="form-control"
+              rows="3"
+              placeholder="Description"
+            ></textarea>
+            <label for="desc">Description</label>
+          </div>
+
+          <div class="text-center mt-3">
+            <button class="btn btn-primary" type="submit">Send</button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+  </body>
+</html>
